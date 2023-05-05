@@ -1,0 +1,136 @@
+@charset "UTF-8";
+body,
+html {
+  height: 1000px;
+  font-family: 微軟正黑體;
+}
+
+nav.navbar {
+  transition-duration: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+  color: #f3f3f3;
+  transition-duration: 0.5s;
+}
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+  color: #ff6e3a;
+}
+
+header.jumbotron {
+  margin-bottom: unset;
+  background-image: url(https://watermark.lovepik.com/photo/20211208/large/lovepik-movable-type-landscape-picture_501674783.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+section {
+  padding: 50px unset;
+}
+section#section_ask .col-sm-5.img {
+  background-image: url(https://www.booklife.com.tw/upload_files/fonlego-rwd/club/g0200021%20-c2.jpg);
+  height: 350px;
+  mix-blend-mode: multiply;
+  background-size: cover;
+}
+section#section_story {
+  padding: unset;
+  color: #f3f3f3;
+}
+section#section_story .col-sm-5 {
+  background-image: url(https://images.freeimages.com/clg/images/31/312571/europe-map-vector_f.jpg);
+  height: 350px;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
+}
+section#section_story .col-sm-5 .cross {
+  position: absolute;
+  left: 35%;
+  top: 35%;
+  color: #ff1100;
+  font-size: 30px;
+  font-weight: bold;
+}
+section#section_story .col-sm-7 {
+  text-align: center;
+}
+section#section_story .col-sm-7 .col-sm-12.features {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+section#section_future .future {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+footer.jumbotron {
+  margin-bottom: unset;
+  background-image: url(https://watermark.lovepik.com/photo/20211208/large/lovepik-movable-type-landscape-picture_501674783.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+
+h2.middle {
+  margin-top: 130px;
+  padding: unset 20px;
+}
+
+h4.light {
+  color: rgba(243, 243, 243, 0.5);
+  font-weight: normal;
+}
+
+hr.hrmark {
+  max-width: 50px;
+  border: solid 2px #ff6e3a;
+}
+
+i {
+  font-size: 2.5rem;
+}
+
+input {
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 100%;
+}
+img .img-wide {
+  width: 200%;
+}
+img .img-wrap {
+  height: 260px;
+  overflow: hidden;
+}
+
+.bgc-dark {
+  background-color: #222;
+}
+.bgc-primary {
+  background-color: #ff6e3a;
+}
+.bgc-transparent {
+  background-color: transparent;
+}
+
+.container-head {
+  color: #f3f3f3;
+  padding: 200px 0px;
+}
+.container-footer {
+  color: #f3f3f3;
+  padding: 60px 0px;
+}/*# sourceMappingURL=all.css.map */
